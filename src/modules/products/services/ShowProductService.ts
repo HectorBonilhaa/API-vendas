@@ -16,6 +16,10 @@ class ShowProductService {
       },
     });
 
+    if (!product) {
+      throw new AppError('Product not found.', 404);
+    }
+
     return product;
   }
 }
