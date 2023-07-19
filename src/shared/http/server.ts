@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import 'dotenv/config';
 import app from './routes/app';
 import { dataSource } from '../typeorm/index';
 
