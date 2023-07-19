@@ -7,6 +7,10 @@ import {
 } from 'typeorm';
 import { Exclude, Expose } from 'class-transformer';
 
+import dotenv from 'dotenv';
+dotenv.config();
+const apiUrl = process.env.APP_API_URL;
+
 @Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
@@ -36,7 +40,7 @@ class User {
     if (!this.avatar) {
       return null;
     }
-    return `${process.env.APP_API_URL}/files/${this.avatar}`;
+    return `${apiUrl}/files/${this.avatar}`;
   }
 }
 
