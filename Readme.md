@@ -15,7 +15,6 @@
     <li>Node.js (<a href="https://nodejs.org">https://nodejs.org</a>)</li>
     <li>TypeScript (<a href="https://www.typescriptlang.org/">https://www.typescriptlang.org/</a>)</li>
     <li>Docker (<a href="https://www.docker.com/">https://www.docker.com/</a>)</li>
-    <li>Docker Compose (<a href="https://docs.docker.com/compose/install/">https://docs.docker.com/compose/install/</a>)
     <li>JWT (<a href="https://www.npmjs.com/package/jsonwebtoken">"https://www.npmjs.com/package/jsonwebtoken</a>)
     </li>
   </ul>
