@@ -60,7 +60,11 @@
 
   <h2>Docker</h2>
   <p>A aplicação também pode ser executada em um ambiente Dockerizado. Para isso, certifique-se de ter o Docker e o
-    Docker Compose instalados.</p>
+    Docker Compose instalados.</br>
+    Certifique-se de criar um container docker com a imagem do seu banco de dados</p>
+    <p>Para criar um container usando o Docker execute o seguinte comando:</p>
+  <pre><code>docker run --name postgres -e POSTGRES_PASSWORD=suaSenha -p 5432:5432 -d postgres up</code></pre>
+  </br>
   <p>Para iniciar a aplicação usando o Docker Compose, execute o seguinte comando:</p>
   <pre><code>docker-compose up</code></pre>
   <p>Isso criará e configurará os containers Docker necessários para a aplicação e a tornará acessível em
