@@ -9,7 +9,7 @@
   <p>Este é o README para uma aplicação Node.js desenvolvida em TypeScript que utiliza as tecnologias Express,
     Docker, Redis e PostgreSQL e JWT. <br/> Aplicação gerencia entidades de Produtos, Usuários, Clientes e Pedidos.</p>
 
-  <h2>Requisitos</h2>
+  <h2>⚠️ Requisitos</h2></h2>
   <p>Certifique-se de que você possui as seguintes ferramentas instaladas em seu sistema:</p>
   <ul>
     <li>Node.js (<a href="https://nodejs.org">https://nodejs.org</a>)</li>
@@ -20,7 +20,7 @@
     </li>
   </ul>
 
-  <h2>Configuração</h2>
+  <h2>🚨 Configuração</h2>
   <ol>
     <li>Clone o repositório para o seu ambiente local:</li>
     <pre><code>git clone git@github.com:HectorBonilhaa/API-vendas.git</code> utilizando chave SSH</pre>
@@ -197,4 +197,7 @@
   <p>Se encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma <i>issue</i> ou
     contribuir com <i>pull requests</i> no repositório.</p>
   <p>Aproveite a aplicação e boas codificações! 🚀</p>
+
+  Disponibilizado com 💙 por 👨‍🎓 [Hector-Bonilhaa](https://www.linkedin.com/in/hector-oliveira-8235951a3/ "Hector Oliveira").
+
 </body>
