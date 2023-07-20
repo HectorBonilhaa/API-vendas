@@ -21,7 +21,7 @@ export const dataSource = new DataSource({
   host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: 'vanin2004',
+  password: 'suasenha',
   database: 'apivendas',
   entities: [Product, User, UserToken, Customers, Order, OrdersProducts],
   migrations: [
